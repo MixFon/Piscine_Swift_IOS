@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D5DCEE7623B74885EC1AAE5A6BD691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E95153A4E36727DFEA9D3053C83B7BA /* Foundation.framework */; };
+		1A483BCA2394DE2F36088BBB4C991D9A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541F28E41F42370AF05D52B2AD78AB24 /* CoreData.framework */; };
+		2170ECCEB1619641EA36AEF2763FAF97 /* Pods-PersonnalDiary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BBF809860DC1916E8D871552A44BFA /* Pods-PersonnalDiary-dummy.m */; };
+		2876364D54C9CB8A50FC31E589F6029B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E95153A4E36727DFEA9D3053C83B7BA /* Foundation.framework */; };
+		2D7C63BB7DEB0B13621DDC5C92906367 /* Pods-PersonnalDiary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C56935C8563B2FD1A9B3CD6A0B12A024 /* Pods-PersonnalDiary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		332896A77EE8CC6255AF47F27EF181CE /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D47BD64B81286A50F8D88B4457A3620 /* article.xcdatamodeld */; };
+		5663A5AB6C30904B60C425736A9A0B21 /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB87E3E996B412EE12DA4670A968A21 /* ArticleManager.swift */; };
+		91887210B60D5EC8C381A2CD4739824D /* widraugr2020-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6D61595FFAA6E53BCEA3A6C0490BF8 /* widraugr2020-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C00A02EC8C6C209D646FDD7FE569623A /* widraugr2020-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EB3E731DE057AE42617E6080889FC /* widraugr2020-dummy.m */; };
+		CEC2EEA220AF369F1374CDEEEAEAD1E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A911B81F6D4A8A904B8E02B8E962EC7 /* UIKit.framework */; };
+		E0DFB438A107CB96D23D55FCC0B3A8D3 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D9F86E4104657B3C9D3FA770DFEC8D /* Article.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32341A8AC552B9AED4C3F7887EE02F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5E6567E0838261D09DF2E1655C06A17;
+			remoteInfo = widraugr2020;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0304635481F68F6006CF31EA2BF31948 /* Pods_PersonnalDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonnalDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6FCAA23FA60C26A02BE2B8273EC295 /* widraugr2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = widraugr2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CAB05A17B7EB91BD29B7BF7CD2660C9 /* Pods-PersonnalDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonnalDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		18FABC0EF3841C40C4E8B32C4F0295DA /* Pods-PersonnalDiary-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PersonnalDiary-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AB87E3E996B412EE12DA4670A968A21 /* ArticleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArticleManager.swift; path = Classes/ArticleManager.swift; sourceTree = "<group>"; };
+		2AF7ADCBAD60246C33124CB1506ABE62 /* widraugr2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = widraugr2020.release.xcconfig; sourceTree = "<group>"; };
+		38B0C072C466F3F8E7ABD03D8A670DD8 /* Pods-PersonnalDiary-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonnalDiary-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A911B81F6D4A8A904B8E02B8E962EC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3D6EB3E731DE057AE42617E6080889FC /* widraugr2020-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "widraugr2020-dummy.m"; sourceTree = "<group>"; };
+		3DABB8262BD99C7F622C0F0AE9680567 /* widraugr2020-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "widraugr2020-prefix.pch"; sourceTree = "<group>"; };
+		53A9434A7E5139214581AC292002EC37 /* Pods-PersonnalDiary-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PersonnalDiary-frameworks.sh"; sourceTree = "<group>"; };
+		53ACF239C84E3F0905E3959736E53503 /* widraugr2020-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "widraugr2020-Info.plist"; sourceTree = "<group>"; };
+		541F28E41F42370AF05D52B2AD78AB24 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		5D6D61595FFAA6E53BCEA3A6C0490BF8 /* widraugr2020-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "widraugr2020-umbrella.h"; sourceTree = "<group>"; };
+		7ACA5D997CF53315A959E00CB20FD170 /* widraugr2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = widraugr2020.debug.xcconfig; sourceTree = "<group>"; };
+		7E95153A4E36727DFEA9D3053C83B7BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		86153928BFC7375AF2A91828984FF231 /* Pods-PersonnalDiary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PersonnalDiary.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8AB19974E685E048ECC088CE987C636 /* Pods-PersonnalDiary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonnalDiary-Info.plist"; sourceTree = "<group>"; };
+		BA68E9EC08A39C1924B8D2A2644F809F /* widraugr2020.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = widraugr2020.modulemap; sourceTree = "<group>"; };
+		C3BF53470CA4F5F08A716AD27B54C1DF /* Pods-PersonnalDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonnalDiary.release.xcconfig"; sourceTree = "<group>"; };
+		C56935C8563B2FD1A9B3CD6A0B12A024 /* Pods-PersonnalDiary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PersonnalDiary-umbrella.h"; sourceTree = "<group>"; };
+		D1D9F86E4104657B3C9D3FA770DFEC8D /* Article.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Article.swift; path = Classes/Article.swift; sourceTree = "<group>"; };
+		D5E1AEAD44130D14E40CBE310A8DC0CF /* article.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
+		F6BBF809860DC1916E8D871552A44BFA /* Pods-PersonnalDiary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PersonnalDiary-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1710E2D0379F47112B982D77099A88DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2876364D54C9CB8A50FC31E589F6029B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75570A9919CD8041AAB3BBC9D3CF3906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A483BCA2394DE2F36088BBB4C991D9A /* CoreData.framework in Frameworks */,
+				05D5DCEE7623B74885EC1AAE5A6BD691 /* Foundation.framework in Frameworks */,
+				CEC2EEA220AF369F1374CDEEEAEAD1E4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D571CB6700528647008AF89FD85B017C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		217F9C3B8272529FD1588B58FB5B9C73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F99E73720B8D90BEDC88C2795EBE530B /* widraugr2020 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C923C4F41CFCAA303F6B7464DF351E8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				828D65ED5A0AA1499C1F39B5C66D9A85 /* Pods-PersonnalDiary */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6C520132A52F1C49546B7F055E7D42F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D47BD64B81286A50F8D88B4457A3620 /* article.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7C294FC73A7085E4706F548BF0210136 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA68E9EC08A39C1924B8D2A2644F809F /* widraugr2020.modulemap */,
+				3D6EB3E731DE057AE42617E6080889FC /* widraugr2020-dummy.m */,
+				53ACF239C84E3F0905E3959736E53503 /* widraugr2020-Info.plist */,
+				3DABB8262BD99C7F622C0F0AE9680567 /* widraugr2020-prefix.pch */,
+				5D6D61595FFAA6E53BCEA3A6C0490BF8 /* widraugr2020-umbrella.h */,
+				7ACA5D997CF53315A959E00CB20FD170 /* widraugr2020.debug.xcconfig */,
+				2AF7ADCBAD60246C33124CB1506ABE62 /* widraugr2020.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/widraugr2020";
+			sourceTree = "<group>";
+		};
+		828D65ED5A0AA1499C1F39B5C66D9A85 /* Pods-PersonnalDiary */ = {
+			isa = PBXGroup;
+			children = (
+				86153928BFC7375AF2A91828984FF231 /* Pods-PersonnalDiary.modulemap */,
+				18FABC0EF3841C40C4E8B32C4F0295DA /* Pods-PersonnalDiary-acknowledgements.markdown */,
+				38B0C072C466F3F8E7ABD03D8A670DD8 /* Pods-PersonnalDiary-acknowledgements.plist */,
+				F6BBF809860DC1916E8D871552A44BFA /* Pods-PersonnalDiary-dummy.m */,
+				53A9434A7E5139214581AC292002EC37 /* Pods-PersonnalDiary-frameworks.sh */,
+				B8AB19974E685E048ECC088CE987C636 /* Pods-PersonnalDiary-Info.plist */,
+				C56935C8563B2FD1A9B3CD6A0B12A024 /* Pods-PersonnalDiary-umbrella.h */,
+				0CAB05A17B7EB91BD29B7BF7CD2660C9 /* Pods-PersonnalDiary.debug.xcconfig */,
+				C3BF53470CA4F5F08A716AD27B54C1DF /* Pods-PersonnalDiary.release.xcconfig */,
+			);
+			name = "Pods-PersonnalDiary";
+			path = "Target Support Files/Pods-PersonnalDiary";
+			sourceTree = "<group>";
+		};
+		995C53B47E3A06682A4CC0EE1413BF9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0304635481F68F6006CF31EA2BF31948 /* Pods_PersonnalDiary.framework */,
+				0B6FCAA23FA60C26A02BE2B8273EC295 /* widraugr2020.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				217F9C3B8272529FD1588B58FB5B9C73 /* Pods */,
+				995C53B47E3A06682A4CC0EE1413BF9A /* Products */,
+				5C923C4F41CFCAA303F6B7464DF351E8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D571CB6700528647008AF89FD85B017C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				541F28E41F42370AF05D52B2AD78AB24 /* CoreData.framework */,
+				7E95153A4E36727DFEA9D3053C83B7BA /* Foundation.framework */,
+				3A911B81F6D4A8A904B8E02B8E962EC7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F99E73720B8D90BEDC88C2795EBE530B /* widraugr2020 */ = {
+			isa = PBXGroup;
+			children = (
+				D1D9F86E4104657B3C9D3FA770DFEC8D /* Article.swift */,
+				1AB87E3E996B412EE12DA4670A968A21 /* ArticleManager.swift */,
+				6C520132A52F1C49546B7F055E7D42F3 /* Resources */,
+				7C294FC73A7085E4706F548BF0210136 /* Support Files */,
+			);
+			path = widraugr2020;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		97376086DCB945E1875A1B589EC7AC31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91887210B60D5EC8C381A2CD4739824D /* widraugr2020-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF86C6541F2D36B55FF20862E49DA348 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7C63BB7DEB0B13621DDC5C92906367 /* Pods-PersonnalDiary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		921AA6DBB2E11FB56148D71B1B4D50E6 /* Pods-PersonnalDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6713330A2C45CF93F944907A201C4C /* Build configuration list for PBXNativeTarget "Pods-PersonnalDiary" */;
+			buildPhases = (
+				AF86C6541F2D36B55FF20862E49DA348 /* Headers */,
+				837FD49DC6561E709E20E46EB4A54B6F /* Sources */,
+				1710E2D0379F47112B982D77099A88DF /* Frameworks */,
+				2DCA286400151FD448C5052BD6BFCEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				487B0BDF208E18EA20B21BCF7D86CDBC /* PBXTargetDependency */,
+			);
+			name = "Pods-PersonnalDiary";
+			productName = "Pods-PersonnalDiary";
+			productReference = 0304635481F68F6006CF31EA2BF31948 /* Pods_PersonnalDiary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5E6567E0838261D09DF2E1655C06A17 /* widraugr2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDFABF9BC6CB6578D08B5B26FF192F0 /* Build configuration list for PBXNativeTarget "widraugr2020" */;
+			buildPhases = (
+				97376086DCB945E1875A1B589EC7AC31 /* Headers */,
+				8C90F134D7E4D640C8C8CE2EA5D4C20A /* Sources */,
+				75570A9919CD8041AAB3BBC9D3CF3906 /* Frameworks */,
+				1FC6725E209E47E5FF3F57FD5DE9245A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widraugr2020;
+			productName = widraugr2020;
+			productReference = 0B6FCAA23FA60C26A02BE2B8273EC295 /* widraugr2020.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					C5E6567E0838261D09DF2E1655C06A17 = {
+						LastSwiftMigration = 1220;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 995C53B47E3A06682A4CC0EE1413BF9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921AA6DBB2E11FB56148D71B1B4D50E6 /* Pods-PersonnalDiary */,
+				C5E6567E0838261D09DF2E1655C06A17 /* widraugr2020 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FC6725E209E47E5FF3F57FD5DE9245A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCA286400151FD448C5052BD6BFCEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837FD49DC6561E709E20E46EB4A54B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2170ECCEB1619641EA36AEF2763FAF97 /* Pods-PersonnalDiary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C90F134D7E4D640C8C8CE2EA5D4C20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DFB438A107CB96D23D55FCC0B3A8D3 /* Article.swift in Sources */,
+				332896A77EE8CC6255AF47F27EF181CE /* article.xcdatamodeld in Sources */,
+				5663A5AB6C30904B60C425736A9A0B21 /* ArticleManager.swift in Sources */,
+				C00A02EC8C6C209D646FDD7FE569623A /* widraugr2020-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		487B0BDF208E18EA20B21BCF7D86CDBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = widraugr2020;
+			target = C5E6567E0838261D09DF2E1655C06A17 /* widraugr2020 */;
+			targetProxy = 32341A8AC552B9AED4C3F7887EE02F84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30025A9F29BF79DB8E57969DFA5AA26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CAB05A17B7EB91BD29B7BF7CD2660C9 /* Pods-PersonnalDiary.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PersonnalDiary/Pods-PersonnalDiary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PersonnalDiary/Pods-PersonnalDiary.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BED8EFBD9B9B85872201275953EAF363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACA5D997CF53315A959E00CB20FD170 /* widraugr2020.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/widraugr2020/widraugr2020-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/widraugr2020/widraugr2020-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/widraugr2020/widraugr2020.modulemap";
+				PRODUCT_MODULE_NAME = widraugr2020;
+				PRODUCT_NAME = widraugr2020;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3D1F42BF1B46EAF13CA510ED6ABA166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3BF53470CA4F5F08A716AD27B54C1DF /* Pods-PersonnalDiary.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PersonnalDiary/Pods-PersonnalDiary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PersonnalDiary/Pods-PersonnalDiary.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6C16C9F784CEAC01C9C62C776EF9D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF7ADCBAD60246C33124CB1506ABE62 /* widraugr2020.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/widraugr2020/widraugr2020-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/widraugr2020/widraugr2020-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/widraugr2020/widraugr2020.modulemap";
+				PRODUCT_MODULE_NAME = widraugr2020;
+				PRODUCT_NAME = widraugr2020;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6178559BD9074C26E073DF5769DB42 /* Debug */,
+				5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EDFABF9BC6CB6578D08B5B26FF192F0 /* Build configuration list for PBXNativeTarget "widraugr2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED8EFBD9B9B85872201275953EAF363 /* Debug */,
+				F6C16C9F784CEAC01C9C62C776EF9D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6713330A2C45CF93F944907A201C4C /* Build configuration list for PBXNativeTarget "Pods-PersonnalDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30025A9F29BF79DB8E57969DFA5AA26C /* Debug */,
+				F3D1F42BF1B46EAF13CA510ED6ABA166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D47BD64B81286A50F8D88B4457A3620 /* article.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D5E1AEAD44130D14E40CBE310A8DC0CF /* article.xcdatamodel */,
+			);
+			currentVersion = D5E1AEAD44130D14E40CBE310A8DC0CF /* article.xcdatamodel */;
+			name = article.xcdatamodeld;
+			path = Assets/article.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

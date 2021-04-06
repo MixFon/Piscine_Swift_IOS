@@ -1,0 +1,16 @@
+PODS:
+  - widraugr2020 (0.1.1)
+
+DEPENDENCIES:
+  - widraugr2020
+
+SPEC REPOS:
+  trunk:
+    - widraugr2020
+
+SPEC CHECKSUMS:
+  widraugr2020: daa44cf08ab00dfbfeac39385ed1c1073850f7b8
+
+PODFILE CHECKSUM: 1233361052861f5c7e84cc704e845f7e454f0209
+
+COCOAPODS: 1.10.0

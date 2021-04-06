@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Siri" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kK9-ol-bTv">
+                                <rect key="frame" x="50" y="416" width="314" height="64.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3ga-re-Xth">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="34"/>
+                                        <subviews>
+                                            <textField contentMode="scaleAspectFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zno-Rm-Ucp">
+                                                <rect key="frame" x="0.0" y="0.0" width="273" height="34"/>
+                                                <nil key="textColor"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqb-ex-8CZ">
+                                                <rect key="frame" x="278" y="2" width="36" height="30"/>
+                                                <state key="normal" title="Send"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="Zno-Rm-Ucp" secondAttribute="bottom" id="2Xu-0a-W15"/>
+                                            <constraint firstItem="Zno-Rm-Ucp" firstAttribute="top" secondItem="3ga-re-Xth" secondAttribute="top" id="CKP-pv-0AD"/>
+                                            <constraint firstItem="dqb-ex-8CZ" firstAttribute="leading" secondItem="Zno-Rm-Ucp" secondAttribute="trailing" constant="5" id="CMX-IF-KnJ"/>
+                                            <constraint firstAttribute="bottom" secondItem="dqb-ex-8CZ" secondAttribute="bottom" constant="2" id="XcS-rP-VsI"/>
+                                            <constraint firstAttribute="trailing" secondItem="dqb-ex-8CZ" secondAttribute="trailing" id="f3K-kn-ebJ"/>
+                                            <constraint firstItem="dqb-ex-8CZ" firstAttribute="top" secondItem="3ga-re-Xth" secondAttribute="top" constant="2" id="k1u-ya-m6z"/>
+                                            <constraint firstItem="Zno-Rm-Ucp" firstAttribute="leading" secondItem="3ga-re-Xth" secondAttribute="leading" id="mzg-AV-OCf"/>
+                                            <constraint firstItem="dqb-ex-8CZ" firstAttribute="leading" secondItem="Zno-Rm-Ucp" secondAttribute="trailing" constant="5" id="qDi-Oc-4dZ"/>
+                                        </constraints>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CkV-1v-Gdq">
+                                        <rect key="frame" x="0.0" y="44" width="314" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kK9-ol-bTv" secondAttribute="trailing" constant="50" id="4Dd-kU-7dU"/>
+                            <constraint firstItem="kK9-ol-bTv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="SCd-b0-bGb"/>
+                            <constraint firstItem="kK9-ol-bTv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VbQ-FL-8ch"/>
+                            <constraint firstItem="kK9-ol-bTv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sfC-wo-99X"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35" y="94"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
